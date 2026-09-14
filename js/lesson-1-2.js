@@ -1,5 +1,5 @@
 /* 1.2 — book pages 18–23.  Exercise items come from lesson-1-2-ex.js */
-const EX_1_2 = {};   // filled in by lesson-1-2-ex.js, read at render time
+
 
 LESSONS.push({
   id: "1.2", code: "1.2", chapter: 1, pages: "18 – 23",

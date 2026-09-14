@@ -1,6 +1,6 @@
 /* 1.2 — start exercises with fully worked, checked answers (book p. 18, 20, 23) */
 
-EX_1_2["3A"] = [{
+EX["3A"] = [{
   num: "3A",
   q: T(
 `<p>Bepaal het quotiënt en de rest van de deling van de veelterm <span class="m">A(x)</span> door de eenterm <span class="m">D(x)</span>. Is de deling opgaand of niet-opgaand?</p>
@@ -30,7 +30,7 @@ EX_1_2["3A"] = [{
 <span class="m">Q(x) = </span>${FR('1','4')}<span class="m">x − </span>${FR('1','2')}, &nbsp; <span class="m">R(x) = 6x − 3</span> → <b>not exact</b>.</p>`)
 }];
 
-EX_1_2["4A"] = [{
+EX["4A"] = [{
   num: "4A",
   q: T(
 `<p>Bepaal het quotiënt en de rest van de euclidische deling van de veeltermen <span class="m">A(x)</span> door <span class="m">D(x)</span>.</p>
@@ -92,7 +92,7 @@ EX_1_2["4A"] = [{
 <p>Check at <span class="m">x = 1</span>: <span class="m">A(1) = 3 + 8 − 1 + 1 = 11</span>; &nbsp; <span class="m">5 · (1 + 2 − </span>${FR('5','3')}<span class="m">) + </span>${FR('13','3')}<span class="m"> = 5 · </span>${FR('4','3')}<span class="m"> + </span>${FR('13','3')}<span class="m"> = </span>${FR('33','3')}<span class="m"> = 11</span> ✓</p>`)
 }];
 
-EX_1_2["5"] = [
+EX["5"] = [
 {
   num: "5A",
   q: T(

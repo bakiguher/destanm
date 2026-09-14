@@ -9,9 +9,9 @@ const BOOK_INDEX = [
   { n: 1, page: 11, title: T("Veeltermfuncties", "Polynomial functions"), sections: [
     { c:"1.1", page:16, ready:true,  lesson:"1.1", title: T("Definitie en domein van veeltermfuncties", "Definition and domain of polynomial functions") },
     { c:"1.2", page:18, ready:true,  lesson:"1.2", title: T("Euclidische deling en deelbaarheid van veeltermen", "Euclidean division and divisibility of polynomials") },
-    { c:"1.3", page:24, ready:false, title: T("Nulwaarden en tekenschema van veeltermfuncties", "Zeros and sign chart of polynomial functions") },
-    { c:"1.4", page:28, ready:false, title: T("Veeltermongelijkheden", "Polynomial inequalities") },
-    { c:"1.5", page:30, ready:false, title: T("Grafisch onderzoek van veeltermfuncties", "Graphical study of polynomial functions") }
+    { c:"1.3", lesson:"1.3", page:24, ready:true , title: T("Nulwaarden en tekenschema van veeltermfuncties", "Zeros and sign chart of polynomial functions") },
+    { c:"1.4", lesson:"1.4", page:28, ready:true , title: T("Veeltermongelijkheden", "Polynomial inequalities") },
+    { c:"1.5", lesson:"1.5", page:30, ready:true , title: T("Grafisch onderzoek van veeltermfuncties", "Graphical study of polynomial functions") }
   ]},
   { n: 2, page: 59, title: T("Rationale functies", "Rational functions"), sections: [
     { c:"2.1", page:62, ready:false, title: T("Definitie en domein van rationale functies", "Definition and domain of rational functions") },
@@ -234,3 +234,6 @@ const GLOSSARY = [
 
 /* Lesson files push themselves into this array. */
 const LESSONS = [];
+
+/* Exercise banks, filled by the lesson-*-ex.js files, keyed by block.from */
+const EX = {};

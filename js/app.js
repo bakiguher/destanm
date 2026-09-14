@@ -272,7 +272,7 @@ function card(kind, tag, title, html) {
 
 /* Exercise items live either inline (b.items) or in an EX_* map (b.from). */
 function renderExercises(b) {
-  const items = b.items || (typeof EX_1_2 !== "undefined" ? EX_1_2[b.from] : null) || [];
+  const items = b.items || (typeof EX !== "undefined" ? EX[b.from] : null) || [];
   return `
   <h2>${t(b.title)}</h2>
   <p style="font-size:14px;color:var(--ink-soft)">${t(UI.exIntro)}</p>
