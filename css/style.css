@@ -53,6 +53,19 @@ body{
 .brand-title{font-weight:700;font-size:15px;letter-spacing:.1px}
 .brand-sub{font-size:11.5px;color:var(--ink-soft);line-height:1.3}
 
+/* ---------- language switch ---------- */
+.lang-switch{
+  display:flex; gap:0; margin-bottom:14px;
+  border:1px solid var(--line); border-radius:9px; overflow:hidden; background:#fbfcfd;
+}
+.lang-btn{
+  flex:1; padding:7px 0; border:0; background:transparent; cursor:pointer;
+  font-family:inherit; font-size:12px; font-weight:700; letter-spacing:.06em;
+  color:var(--ink-soft); transition:background .15s, color .15s;
+}
+.lang-btn:hover{background:var(--bg)}
+.lang-btn.on{background:var(--brand); color:#fff}
+
 /* ---------- progress ---------- */
 .progress-card{
   background:var(--brand-soft); border-radius:var(--radius);
